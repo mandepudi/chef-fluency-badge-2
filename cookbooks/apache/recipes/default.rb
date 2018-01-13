@@ -6,7 +6,7 @@
 
 if node['plat_form_family'] == 'rhel'
   package = 'httpd'
-elsif node['plat_form_family] == 'debian'
+elsif node['plat_form_family'] == 'debian'
   package = 'apache2'
 
 package 'apache2' do
